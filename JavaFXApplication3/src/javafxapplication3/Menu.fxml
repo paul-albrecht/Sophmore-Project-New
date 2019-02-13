@@ -14,7 +14,7 @@
    <children>
       <ImageView fitHeight="560.0" fitWidth="763.0" layoutX="-94.0" layoutY="-1.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/nickw/Desktop/JavaFXApplication3/textures-background-29.png" />
+            <Image url="@../../textures-background-29.png" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#423da4cc" focusTraversable="true" height="41.0" layoutX="257.0" layoutY="284.0" stroke="BLACK" strokeType="INSIDE" width="139.0">
