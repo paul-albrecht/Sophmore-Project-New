@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.MenuController">
+   <children>
+      <ImageView fitHeight="560.0" fitWidth="763.0" layoutX="-94.0" layoutY="-1.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/nickw/Desktop/JavaFXApplication3/textures-background-29.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#423da4cc" focusTraversable="true" height="41.0" layoutX="257.0" layoutY="284.0" stroke="BLACK" strokeType="INSIDE" width="139.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#423da4cc" focusTraversable="true" height="41.0" layoutX="257.0" layoutY="364.0" stroke="BLACK" strokeType="INSIDE" width="139.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#423da4cc" focusTraversable="true" height="41.0" layoutX="257.0" layoutY="204.0" onMouseClicked="#gotoSceneTwo" stroke="BLACK" strokeType="INSIDE" width="139.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Text fill="WHITE" layoutX="177.0" layoutY="128.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Tetris" textAlignment="CENTER" wrappingWidth="298.798828125">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Text>
+      <Ellipse fill="#413ea3cc" layoutX="576.0" layoutY="449.0" onMouseClicked="#highsores" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Ellipse>
+      <Text layoutX="559.0" layoutY="454.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Scores" />
+      <Ellipse fill="#413ea3cc" layoutX="64.0" layoutY="449.0" onMouseClicked="#exit" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Ellipse>
+      <Text layoutX="55.0" layoutY="454.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Exit" />
+      <Text layoutX="276.0" layoutY="231.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Single Player">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="300.0" layoutY="391.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Online">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="282.0" layoutY="311.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Multiplayer">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
