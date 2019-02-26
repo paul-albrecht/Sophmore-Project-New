@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.SecondScenev2Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a33" height="620.0" layoutX="245.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="496.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="46.0" layoutX="343.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="314.0">
+         <effect>
+            <DropShadow />
+         </effect></Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="93.0" layoutX="66.0" layoutY="125.0" stroke="BLACK" strokeType="INSIDE" width="156.0">
+         <effect>
+            <DropShadow />
+         </effect></Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="101.0" layoutX="767.0" layoutY="125.0" stroke="BLACK" strokeType="INSIDE" width="146.0">
+         <effect>
+            <DropShadow />
+         </effect></Rectangle>
+      <Ellipse fill="#413ea3cc" layoutX="48.0" layoutY="770.0" onMouseClicked="#gotoMain" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Ellipse>
+      <Text layoutX="33.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
+      <Ellipse fill="#413ea3cc" layoutX="952.0" layoutY="770.0" onMouseClicked="#pause" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Ellipse>
+      <Text layoutX="937.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
+      <Text layoutX="127.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stored" />
+      <Text layoutX="823.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" />
+      <Text layoutX="349.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
+   </children>
+</AnchorPane>
