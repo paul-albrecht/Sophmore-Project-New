@@ -7,8 +7,8 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 //Shape class built by piece has a method to get piece x and y collisoin check an array if 
@@ -17,16 +17,17 @@ import javafx.stage.Stage;
 public class Tetrisv2 extends Application {
 
     private Pane root = new Pane();
-    private TShape T = new TShape(100, 100, 30);
+    private TShape T = new TShape(500, 100, 25);
 
     private Parent createScene() { //might not need could just add to start
         root.setPrefSize(1000, 800);
-        T.TShapeDraw(root);
+        //T.TShapeDraw(root);
         return root;
     }
 
     @Override
     public void start(Stage stage) throws FileNotFoundException, IOException {
+        Font.loadFont(getClass().getResourceAsStream("./src/tetrisv2/fonts/Tetris.ttf"), 14);
         //loads main menu
         FXMLLoader loader = new FXMLLoader();
         String fxmlDocPath = "build/classes/tetrisv2/Menuv2.fxml";

@@ -3,8 +3,11 @@ package tetrisv2;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.Node;
-
-
+//10x16
+//[[0000000000000],
+// [0000000000000],
+ //[0000000000000],
+// [0000000000000],]
 //create a gameboard  bounds so that shape cant move past edge of screen
 public class TShape {
 

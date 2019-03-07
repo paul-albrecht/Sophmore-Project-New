@@ -27,7 +27,7 @@
             <DropShadow />
          </effect>
       </Rectangle>
-      <Text fill="WHITE" layoutX="350.0" layoutY="181.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Tetris" textAlignment="CENTER" wrappingWidth="300.0">
+      <Text id="text" fill="WHITE" layoutX="350.0" layoutY="181.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Tetris" textAlignment="CENTER" wrappingWidth="300.0">
          <font>
             <Font size="96.0" />
          </font>

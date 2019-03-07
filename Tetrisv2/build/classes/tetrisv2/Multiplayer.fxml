@@ -36,11 +36,11 @@
             <DropShadow />
          </effect>
       </Rectangle>
-      <Text layoutX="359.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
-      <Text layoutX="893.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" />
-      <Text layoutX="85.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stored" />
-      <Text layoutX="937.0" layoutY="774.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
-      <Text layoutX="33.0" layoutY="774.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
+      <Text fill="WHITE" layoutX="359.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
+      <Text fill="WHITE" layoutX="893.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" />
+      <Text fill="WHITE" layoutX="85.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stored" />
+      <Text fill="WHITE" layoutX="937.0" layoutY="774.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
+      <Text fill="WHITE" layoutX="33.0" layoutY="774.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a33" height="620.0" layoutX="195.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="621.0" />
    </children>
 </AnchorPane>

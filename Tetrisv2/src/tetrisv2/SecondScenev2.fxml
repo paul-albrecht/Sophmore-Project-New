@@ -30,15 +30,15 @@
             <DropShadow />
          </effect>
       </Ellipse>
-      <Text layoutX="33.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
+      <Text fill="WHITE" layoutX="33.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
       <Ellipse fill="#413ea3cc" layoutX="952.0" layoutY="770.0" onMouseClicked="#pause" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
             <DropShadow />
          </effect>
       </Ellipse>
-      <Text layoutX="937.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
-      <Text layoutX="127.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stored" />
-      <Text layoutX="823.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" />
-      <Text layoutX="349.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
+      <Text fill="WHITE" layoutX="937.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
+      <Text fill="WHITE" layoutX="127.0" layoutY="138.0" stroke="#fffbfb" strokeType="OUTSIDE" strokeWidth="0.0" text="Stored" />
+      <Text fill="WHITE" layoutX="823.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" />
+      <Text fill="WHITE" layoutX="349.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
    </children>
 </AnchorPane>
