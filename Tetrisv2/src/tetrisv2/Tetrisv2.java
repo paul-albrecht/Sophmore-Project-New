@@ -21,7 +21,7 @@ public class Tetrisv2 extends Application {
 
     private Parent createScene() { //might not need could just add to start
         root.setPrefSize(1000, 800);
-        //T.TShapeDraw(root);
+        T.TShapeDraw(root);
         return root;
     }
 

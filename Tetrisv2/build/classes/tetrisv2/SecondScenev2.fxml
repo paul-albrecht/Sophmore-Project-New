@@ -10,9 +10,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.SecondScenev2Controller">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.SecondScenev2Controller">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a33" height="620.0" layoutX="245.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="496.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a33" height="510.0" layoutX="370.0" layoutY="134.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="260.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="46.0" layoutX="343.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="314.0">
          <effect>
             <DropShadow />
@@ -25,18 +25,18 @@
          <effect>
             <DropShadow />
          </effect></Rectangle>
-      <Ellipse fill="#413ea3cc" layoutX="48.0" layoutY="770.0" onMouseClicked="#gotoMain" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+      <Ellipse fill="#413ea3cc" layoutX="48.0" layoutY="699.0" onMouseClicked="#gotoMain" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
             <DropShadow />
          </effect>
       </Ellipse>
-      <Text fill="WHITE" layoutX="33.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
-      <Ellipse fill="#413ea3cc" layoutX="952.0" layoutY="770.0" onMouseClicked="#pause" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+      <Text fill="WHITE" layoutX="33.0" layoutY="704.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
+      <Ellipse fill="#413ea3cc" layoutX="913.0" layoutY="707.0" onMouseClicked="#pause" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
             <DropShadow />
          </effect>
       </Ellipse>
-      <Text fill="WHITE" layoutX="937.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
+      <Text fill="WHITE" layoutX="898.0" layoutY="712.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
       <Text fill="WHITE" layoutX="127.0" layoutY="138.0" stroke="#fffbfb" strokeType="OUTSIDE" strokeWidth="0.0" text="Stored" />
       <Text fill="WHITE" layoutX="823.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" />
       <Text fill="WHITE" layoutX="349.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
