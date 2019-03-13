@@ -13,32 +13,32 @@
 <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.SecondScenev2Controller">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a33" height="510.0" layoutX="270.0" layoutY="68.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="260.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="46.0" layoutX="243.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="314.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="46.0" layoutX="270.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="260.0">
          <effect>
             <DropShadow />
          </effect></Rectangle>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="93.0" layoutX="25.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" width="156.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="100.0" layoutX="55.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" width="160.0">
          <effect>
             <DropShadow />
          </effect></Rectangle>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="101.0" layoutX="599.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="146.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="100.0" layoutX="585.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" width="160.0">
          <effect>
             <DropShadow />
          </effect></Rectangle>
-      <Ellipse fill="#413ea3cc" layoutX="69.0" layoutY="557.0" onMouseClicked="#gotoMain" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+      <Ellipse fill="#413ea3cc" layoutX="48.0" layoutY="570.0" onMouseClicked="#gotoMain" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
             <DropShadow />
          </effect>
       </Ellipse>
-      <Text fill="WHITE" layoutX="54.0" layoutY="562.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
-      <Ellipse fill="#413ea3cc" layoutX="731.0" layoutY="548.0" onMouseClicked="#pause" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+      <Text fill="WHITE" layoutX="33.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
+      <Ellipse fill="#413ea3cc" layoutX="752.0" layoutY="570.0" onMouseClicked="#pause" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
             <DropShadow />
          </effect>
       </Ellipse>
-      <Text fill="WHITE" layoutX="716.0" layoutY="553.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
-      <Text fill="WHITE" layoutX="86.0" layoutY="118.0" stroke="#fffbfb" strokeType="OUTSIDE" strokeWidth="0.0" text="Stored" />
-      <Text fill="WHITE" layoutX="672.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" />
-      <Text fill="WHITE" layoutX="271.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
+      <Text fill="WHITE" layoutX="737.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
+      <Text fill="WHITE" layoutX="118.0" layoutY="110.0" stroke="#fffbfb" strokeType="OUTSIDE" strokeWidth="0.0" text="Stored" underline="true" />
+      <Text fill="WHITE" layoutX="653.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" underline="true" />
+      <Text fill="WHITE" layoutX="280.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
    </children>
 </AnchorPane>

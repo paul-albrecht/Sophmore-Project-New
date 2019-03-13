@@ -9,68 +9,68 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.ScoresController">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.ScoresController">
    <children>
-      <Ellipse fill="#413ea3cc" layoutX="48.0" layoutY="770.0" onMouseClicked="#gotoMain" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+      <Ellipse fill="#413ea3cc" layoutX="48.0" layoutY="570.0" onMouseClicked="#gotoMain" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
             <DropShadow />
          </effect>
       </Ellipse>
-      <Text layoutX="33.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
-      <Text fill="WHITE" layoutX="189.0" layoutY="129.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="High Scores" textAlignment="CENTER" wrappingWidth="623.0">
+      <Text fill="WHITE" layoutX="33.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
+      <Text fill="WHITE" layoutX="144.0" layoutY="93.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="High Scores" textAlignment="CENTER" wrappingWidth="538.0">
          <font>
-            <Font size="96.0" />
+            <Font size="86.0" />
          </font>
       </Text>
-      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#0000002e" height="535.0" layoutX="253.0" layoutY="165.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="496.0" />
-      <Text layoutX="308.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AAA">
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#0000002e" height="440.0" layoutX="213.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="400.0" />
+      <Text fill="WHITE" layoutX="246.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AAA">
          <font>
-            <Font size="36.0" />
+            <Font size="32.0" />
          </font>
       </Text>
-      <Text layoutX="308.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AAB">
+      <Text fill="WHITE" layoutX="246.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AAB">
          <font>
-            <Font size="36.0" />
+            <Font size="32.0" />
          </font>
       </Text>
-      <Text layoutX="308.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AAC">
+      <Text fill="WHITE" layoutX="246.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AAC">
          <font>
-            <Font size="36.0" />
+            <Font size="32.0" />
          </font>
       </Text>
-      <Text layoutX="308.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AAD">
+      <Text fill="WHITE" layoutX="246.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AAD">
          <font>
-            <Font size="36.0" />
+            <Font size="32.0" />
          </font>
       </Text>
-      <Text layoutX="308.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AAE">
+      <Text fill="WHITE" layoutX="246.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AAE">
          <font>
-            <Font size="36.0" />
+            <Font size="32.0" />
          </font>
       </Text>
-      <Text layoutX="570.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1234567">
+      <Text fill="WHITE" layoutX="457.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1234567">
          <font>
-            <Font size="36.0" />
+            <Font size="32.0" />
          </font>
       </Text>
-      <Text layoutX="570.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="123456">
+      <Text fill="WHITE" layoutX="457.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="123456">
          <font>
-            <Font size="36.0" />
+            <Font size="32.0" />
          </font>
       </Text>
-      <Text layoutX="570.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12345">
+      <Text fill="WHITE" layoutX="457.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12345">
          <font>
-            <Font size="36.0" />
+            <Font size="32.0" />
          </font>
       </Text>
-      <Text layoutX="570.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="123">
+      <Text fill="WHITE" layoutX="457.0" layoutY="534.0" strokeType="OUTSIDE" strokeWidth="0.0" text="123">
          <font>
-            <Font size="36.0" />
+            <Font size="32.0" />
          </font>
       </Text>
-      <Text layoutX="570.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1234">
+      <Text fill="WHITE" layoutX="457.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1234">
          <font>
-            <Font size="36.0" />
+            <Font size="32.0" />
          </font>
       </Text>
    </children>

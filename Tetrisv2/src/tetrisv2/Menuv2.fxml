@@ -10,49 +10,49 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.Menuv2Controller">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.Menuv2Controller">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#423da4cc" focusTraversable="true" height="45.0" layoutX="430.0" layoutY="390.0" onMouseClicked="#gotoMult" stroke="BLACK" strokeType="INSIDE" width="140.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#423da4cc" focusTraversable="true" height="45.0" layoutX="330.0" layoutY="350.0" onMouseClicked="#gotoMult" stroke="BLACK" strokeType="INSIDE" width="140.0">
          <effect>
             <DropShadow />
          </effect>
       </Rectangle>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#423da4cc" focusTraversable="true" height="45.0" layoutX="430.0" layoutY="475.0" stroke="BLACK" strokeType="INSIDE" width="140.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#423da4cc" focusTraversable="true" height="45.0" layoutX="330.0" layoutY="430.0" stroke="BLACK" strokeType="INSIDE" width="140.0">
          <effect>
             <DropShadow />
          </effect>
       </Rectangle>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#423da4cc" focusTraversable="true" height="45.0" layoutX="430.0" layoutY="305.0" onMouseClicked="#gotoSceneTwo" stroke="BLACK" strokeType="INSIDE" width="140.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#423da4cc" focusTraversable="true" height="45.0" layoutX="330.0" layoutY="270.0" onMouseClicked="#gotoSceneTwo" stroke="BLACK" strokeType="INSIDE" width="140.0">
          <effect>
             <DropShadow />
          </effect>
       </Rectangle>
-      <Text id="text" fill="WHITE" layoutX="350.0" layoutY="181.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Tetris" textAlignment="CENTER" wrappingWidth="300.0">
+      <Text id="text" fill="WHITE" layoutX="250.0" layoutY="175.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Tetris" textAlignment="CENTER" wrappingWidth="300.0">
          <font>
             <Font size="96.0" />
          </font>
       </Text>
-      <Ellipse fill="#413ea3cc" layoutX="952.0" layoutY="770.0" onMouseClicked="#gotoScore" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+      <Ellipse fill="#413ea3cc" layoutX="752.0" layoutY="570.0" onMouseClicked="#gotoScore" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
             <DropShadow />
          </effect></Ellipse>
-      <Text fill="WHITE" layoutX="935.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Scores" />
-      <Ellipse fill="#413ea3cc" layoutX="48.0" layoutY="770.0" onMouseClicked="#exit" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+      <Text fill="WHITE" layoutX="735.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Scores" />
+      <Ellipse fill="#413ea3cc" layoutX="48.0" layoutY="570.0" onMouseClicked="#exit" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
             <DropShadow />
          </effect></Ellipse>
-      <Text fill="WHITE" layoutX="39.0" layoutY="775.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Exit" />
-      <Text fill="WHITE" layoutX="449.0" layoutY="334.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Single Player">
+      <Text fill="WHITE" layoutX="39.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Exit" />
+      <Text fill="WHITE" layoutX="348.0" layoutY="299.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Single Player">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="474.0" layoutY="504.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Online">
+      <Text fill="WHITE" layoutX="373.0" layoutY="459.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Online">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="455.0" layoutY="419.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Multiplayer">
+      <Text fill="WHITE" layoutX="355.0" layoutY="379.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Multiplayer">
          <font>
             <Font size="18.0" />
          </font>

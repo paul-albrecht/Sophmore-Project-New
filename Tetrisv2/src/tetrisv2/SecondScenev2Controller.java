@@ -14,8 +14,11 @@ import javafx.stage.Stage;
 //x 245
 //y 82
 public class SecondScenev2Controller implements Initializable {
-
-    GameBoard board = new GameBoard(245, 82, 496, 620);
+    int x = 245;
+    int y = 82;
+    int width = 496;
+    int height = 620;
+//    GameBoard board = new GameBoard(x, y, width, height);
     Stage prevStage; //single player scene
     Stage mainStage; //main menu
 
@@ -36,45 +39,8 @@ public class SecondScenev2Controller implements Initializable {
         prevStage.close();
     }
 
-    public void pickPiece() {
-        Random rand = new Random();
-        int n = rand.nextInt(6);
-        switch (n) {
-            case 0:
-                board.drawI();
-                break;
-            case 1:
-                board.drawRL();
-                break;
-            case 2:
-                board.drawLL();
-                break;
-            case 3:
-                board.drawS();
-                break;
-            case 4:
-                board.drawZ();
-                break;
-            case 5:
-                board.drawSquare();
-                break;
-        }
-    }
-
-    public void timer() {
-        TimerTask repeatedTask = new TimerTask() {
-            public void run() {
-                if(board.checkZero()){
-                    board.moveDown();
-                }
-            }
-        };
-        Timer timer = new Timer("Timer");
-
-        long delay = 1000L;
-        long period = 1000L;
-        timer.scheduleAtFixedRate(repeatedTask, delay, period);
-
+    public void spawnPiece() {
+        board.pickPiece();
     }
 
     @Override

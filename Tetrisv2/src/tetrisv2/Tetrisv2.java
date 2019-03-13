@@ -20,8 +20,8 @@ public class Tetrisv2 extends Application {
     private TShape T = new TShape(500, 100, 25);
 
     private Parent createScene() { //might not need could just add to start
-        root.setPrefSize(1000, 800);
-        T.TShapeDraw(root);
+        root.setPrefSize(800, 600);
+        //T.TShapeDraw(root);
         return root;
     }
 
