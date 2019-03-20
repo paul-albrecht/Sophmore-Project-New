@@ -35,6 +35,7 @@ public class Menuv2Controller implements Initializable {
 
         //include the prevstage method for each in order for it to receive its stage
         scene.getStylesheets().addAll(this.getClass().getResource("MenuStyle.css").toExternalForm()); //adds css
+        single_controller.sendAnchorPane(root);
         stage.setScene(scene);
         stage.setTitle("Single Player");
 

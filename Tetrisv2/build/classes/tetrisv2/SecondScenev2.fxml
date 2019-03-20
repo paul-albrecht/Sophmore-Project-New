@@ -12,7 +12,6 @@
 
 <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.SecondScenev2Controller">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a33" height="510.0" layoutX="270.0" layoutY="68.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="260.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#413ea37e" height="46.0" layoutX="270.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="260.0">
          <effect>
             <DropShadow />
@@ -30,15 +29,44 @@
             <DropShadow />
          </effect>
       </Ellipse>
-      <Text fill="WHITE" layoutX="33.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
+      <Text fill="WHITE" layoutX="31.0" layoutY="574.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
       <Ellipse fill="#413ea3cc" layoutX="752.0" layoutY="570.0" onMouseClicked="#pause" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
             <DropShadow />
          </effect>
       </Ellipse>
-      <Text fill="WHITE" layoutX="737.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
+      <Text fill="WHITE" layoutX="734.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
       <Text fill="WHITE" layoutX="118.0" layoutY="110.0" stroke="#fffbfb" strokeType="OUTSIDE" strokeWidth="0.0" text="Stored" underline="true" />
       <Text fill="WHITE" layoutX="653.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" underline="true" />
       <Text fill="WHITE" layoutX="280.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
+      <Line endX="300.0" endY="577.0" opacity="0.3" startX="300.0" startY="69.0" />
+      <Line endX="325.0" endY="577.0" opacity="0.3" startX="325.0" startY="69.0" />
+      <Line endX="350.0" endY="577.0" opacity="0.3" startX="350.0" startY="69.0" />
+      <Line endX="375.0" endY="577.0" opacity="0.3" startX="375.0" startY="69.0" />
+      <Line endX="400.0" endY="577.0" opacity="0.3" startX="400.0" startY="69.0" />
+      <Line endX="425.0" endY="577.0" opacity="0.3" startX="425.0" startY="69.0" />
+      <Line endX="450.0" endY="577.0" opacity="0.3" startX="450.0" startY="69.0" />
+      <Line endX="475.0" endY="577.0" opacity="0.3" startX="475.0" startY="69.0" />
+      <Line endX="500.0" endY="577.0" opacity="0.3" startX="500.0" startY="69.0" />
+      <Line endX="529.0" endY="98.0" opacity="0.3" startX="271.0" startY="98.0" />
+      <Line endX="529.0" endY="123.0" opacity="0.3" startX="271.0" startY="123.0" />
+      <Line endX="529.0" endY="148.0" opacity="0.3" startX="271.0" startY="148.0" />
+      <Line endX="529.0" endY="173.0" opacity="0.3" startX="271.0" startY="173.0" />
+      <Line endX="529.0" endY="198.0" opacity="0.3" startX="271.0" startY="198.0" />
+      <Line endX="529.0" endY="223.0" opacity="0.3" startX="271.0" startY="223.0" />
+      <Line endX="529.0" endY="248.0" opacity="0.3" startX="271.0" startY="248.0" />
+      <Line endX="529.0" endY="273.0" opacity="0.3" startX="271.0" startY="273.0" />
+      <Line endX="529.0" endY="298.0" opacity="0.3" startX="271.0" startY="298.0" />
+      <Line endX="529.0" endY="323.0" opacity="0.3" startX="271.0" startY="323.0" />
+      <Line endX="529.0" endY="348.0" opacity="0.3" startX="271.0" startY="348.0" />
+      <Line endX="529.0" endY="373.0" opacity="0.3" startX="271.0" startY="373.0" />
+      <Line endX="529.0" endY="398.0" opacity="0.3" startX="271.0" startY="398.0" />
+      <Line endX="529.0" endY="423.0" opacity="0.3" startX="271.0" startY="423.0" />
+      <Line endX="529.0" endY="448.0" opacity="0.3" startX="271.0" startY="448.0" />
+      <Line endX="529.0" endY="473.0" opacity="0.3" startX="271.0" startY="473.0" />
+      <Line endX="529.0" endY="498.0" opacity="0.3" startX="271.0" startY="498.0" />
+      <Line endX="529.0" endY="523.0" opacity="0.3" startX="271.0" startY="523.0" />
+      <Line endX="529.0" endY="548.0" opacity="0.3" startX="271.0" startY="548.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a33" height="510.0" layoutX="270.0" layoutY="68.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="260.0" />
    </children>
 </AnchorPane>

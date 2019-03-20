@@ -41,6 +41,7 @@ public class Tetrisv2 extends Application {
         
         //add css and shows menu scene
         scene.getStylesheets().addAll(this.getClass().getResource("MenuStyle.css").toExternalForm());
+
         stage.setScene(scene);
         stage.setTitle("Main Menu");
         stage.show();

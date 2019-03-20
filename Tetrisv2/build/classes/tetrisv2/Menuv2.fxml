@@ -36,12 +36,12 @@
          <effect>
             <DropShadow />
          </effect></Ellipse>
-      <Text fill="WHITE" layoutX="735.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Scores" />
+      <Text fill="WHITE" layoutX="730.0" layoutY="576.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Scores" />
       <Ellipse fill="#413ea3cc" layoutX="48.0" layoutY="570.0" onMouseClicked="#exit" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
             <DropShadow />
          </effect></Ellipse>
-      <Text fill="WHITE" layoutX="39.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Exit" />
+      <Text fill="WHITE" layoutX="36.0" layoutY="576.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Exit" />
       <Text fill="WHITE" layoutX="348.0" layoutY="299.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Single Player">
          <font>
             <Font size="18.0" />
