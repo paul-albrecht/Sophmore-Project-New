@@ -9,7 +9,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.MultiplayerController">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tetrisv2.MultiplayerController">
    <children>
       <Ellipse fill="#413ea3cc" layoutX="852.0" layoutY="570.0" onMouseClicked="#pause" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
          <effect>
@@ -39,8 +39,52 @@
       <Text fill="WHITE" layoutX="329.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" />
       <Text fill="WHITE" layoutX="783.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" />
       <Text fill="WHITE" layoutX="83.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stored" />
-      <Text fill="WHITE" layoutX="837.0" layoutY="575.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
-      <Text fill="WHITE" layoutX="33.0" layoutY="574.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a33" height="510.0" layoutX="195.0" layoutY="69.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="510.0" />
+      <Text fill="WHITE" layoutX="833.0" layoutY="576.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause" />
+      <Text fill="WHITE" layoutX="29.0" layoutY="576.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a33" height="510.0" layoutX="195.0" layoutY="70.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="510.0" />
+      <Line endX="225.0" endY="579.0" opacity="0.3" startX="225.0" startY="71.0" />
+      <Line endX="250.0" endY="579.0" opacity="0.3" startX="250.0" startY="71.0" />
+      <Line endX="275.0" endY="579.0" opacity="0.3" startX="275.0" startY="71.0" />
+      <Line endX="300.0" endY="579.0" opacity="0.3" startX="300.0" startY="71.0" />
+      <Line endX="325.0" endY="579.0" opacity="0.3" startX="325.0" startY="71.0" />
+      <Line endX="350.0" endY="579.0" opacity="0.3" startX="350.0" startY="71.0" />
+      <Line endX="375.0" endY="579.0" opacity="0.3" startX="375.0" startY="71.0" />
+      <Line endX="400.0" endY="579.0" opacity="0.3" startX="400.0" startY="71.0" />
+      <Line endX="425.0" endY="579.0" opacity="0.3" startX="425.0" startY="71.0" />
+      <Line endX="450.0" endY="579.0" opacity="0.3" startX="450.0" startY="71.0" />
+      <Line endX="475.0" endY="579.0" opacity="0.3" startX="475.0" startY="71.0" />
+      <Line endX="500.0" endY="579.0" opacity="0.3" startX="500.0" startY="71.0" />
+      <Line endX="525.0" endY="579.0" opacity="0.3" startX="525.0" startY="71.0" />
+      <Line endX="550.0" endY="579.0" opacity="0.3" startX="550.0" startY="71.0" />
+      <Line endX="575.0" endY="579.0" opacity="0.3" startX="575.0" startY="71.0" />
+      <Line endX="600.0" endY="579.0" opacity="0.3" startX="600.0" startY="71.0" />
+      <Line endX="625.0" endY="579.0" opacity="0.3" startX="625.0" startY="71.0" />
+      <Line endX="650.0" endY="579.0" opacity="0.3" startX="650.0" startY="71.0" />
+      <Line endX="675.0" endY="579.0" opacity="0.3" startX="675.0" startY="71.0" />
+      <Line endX="704.0" endY="100.0" opacity="0.3" startX="196.0" startY="100.0" />
+      <Line endX="704.0" endY="125.0" opacity="0.3" startX="196.0" startY="125.0" />
+      <Line endX="704.0" endY="150.0" opacity="0.3" startX="196.0" startY="150.0" />
+      <Line endX="704.0" endY="175.0" opacity="0.3" startX="196.0" startY="175.0" />
+      <Line endX="704.0" endY="200.0" opacity="0.3" startX="196.0" startY="200.0" />
+      <Line endX="704.0" endY="225.0" opacity="0.3" startX="196.0" startY="225.0" />
+      <Line endX="704.0" endY="250.0" opacity="0.3" startX="196.0" startY="250.0" />
+      <Line endX="704.0" endY="275.0" opacity="0.3" startX="196.0" startY="275.0" />
+      <Line endX="704.0" endY="300.0" opacity="0.3" startX="196.0" startY="300.0" />
+      <Line endX="704.0" endY="325.0" opacity="0.3" startX="196.0" startY="325.0" />
+      <Line endX="704.0" endY="350.0" opacity="0.3" startX="196.0" startY="350.0" />
+      <Line endX="704.0" endY="375.0" opacity="0.3" startX="196.0" startY="375.0" />
+      <Line endX="704.0" endY="400.0" opacity="0.3" startX="196.0" startY="400.0" />
+      <Line endX="704.0" endY="425.0" opacity="0.3" startX="196.0" startY="425.0" />
+      <Line endX="704.0" endY="450.0" opacity="0.3" startX="196.0" startY="450.0" />
+      <Line endX="704.0" endY="475.0" opacity="0.3" startX="196.0" startY="475.0" />
+      <Line endX="704.0" endY="500.0" opacity="0.3" startX="196.0" startY="500.0" />
+      <Line endX="704.0" endY="525.0" opacity="0.3" startX="196.0" startY="525.0" />
+      <Line endX="704.0" endY="550.0" opacity="0.3" startX="196.0" startY="550.0" />
+      <Ellipse fill="#413ea3cc" layoutX="799.0" layoutY="376.0" onMouseClicked="#pause" radiusX="34.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Ellipse>
+      <Text fill="WHITE" layoutX="783.0" layoutY="380.0" mouseTransparent="true" onMouseClicked="#Start" strokeType="OUTSIDE" strokeWidth="0.0" text="Start" />
    </children>
 </AnchorPane>

@@ -1,6 +1,5 @@
 package tetrisv2;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.net.URL;
 import java.util.ArrayList;
@@ -8,10 +7,11 @@ import java.util.Arrays;
 import java.util.ResourceBundle;
 import java.util.Scanner;
 import javafx.fxml.Initializable;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 public class ScoresController implements Initializable {
-
+    AnchorPane root;
     Stage mainStage; //main menu
     Stage prevStage; //scores scene
     public void mainStage(Stage stage) { //allows for menu controller to send to the menu scene in order to get back to main menu
@@ -24,7 +24,9 @@ public class ScoresController implements Initializable {
         mainStage.show();
         prevStage.close();
     }
-
+    public void sendRoot(AnchorPane root){
+        this.root = root;
+    }
     public void highsores() throws Exception { //read the scores file and draw text on fxml scene
         String scoresArray[][] = new String[5][2];
         ArrayList<String> score = new ArrayList<>();

@@ -2,28 +2,26 @@ package tetrisv2;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.animation.AnimationTimer;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.Initializable;
-import javafx.scene.Group;
-import javafx.scene.Scene;
+import javafx.scene.Node;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
-//gameboard rectangle
-//width 496
-//height 620
-//x 245
-//y 82
 public class SecondScenev2Controller implements Initializable {
 
-    int x = 275;
+    int x = 275; // +5 for border
     int y = 73;
-    int width = 260;
-    int height = 510;
-    GameBoard board = new GameBoard(x, y, width, height);
+
+    GameBoard board = new GameBoard(x, y);
     Stage prevStage; //single player scene
     Stage mainStage; //main menu
     AnchorPane root;
+
     public void mainStage(Stage stage) { //in order to get back to main menu
         mainStage = stage;
     }
@@ -37,14 +35,25 @@ public class SecondScenev2Controller implements Initializable {
         prevStage.close();
     }
 
-    public void pause() { //make pause
-//        prevStage.close();
-        board.drawToScene(root);
+    public void pause(){ //make pause
+        board.timerPause();
+    }
+    public void resume(){
+        board.resume();
+    }
+    public void Start() {
+        board.drawToScene();
+        board.timer(root);
 
     }
 
     public void sendAnchorPane(AnchorPane root) { //gets root which allows for the shape to be drawn on scene
         this.root = root;
+        board.sendAnchorPane(root);
+    }
+
+    public void sendKeyCode(String s) { //receivce key from menu
+        board.sendKeyCode(s);
     }
 //
 //    public void spawnPiece() {

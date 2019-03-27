@@ -11,6 +11,9 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import java.io.*;
 import java.util.Scanner;
+import javafx.event.EventHandler;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 
 public class Menuv2Controller implements Initializable {
 
@@ -22,7 +25,7 @@ public class Menuv2Controller implements Initializable {
 
     public void gotoSceneTwo() throws IOException { //loads the second scene, adds to stage, shows, closes menu, sends the stage to secondscene controller
         Stage stage = new Stage();
-
+        String keyCode;
         FXMLLoader loader = new FXMLLoader();
         String fxmlDocPath = "build/classes/tetrisv2/SecondScenev2.fxml";
         FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
@@ -41,7 +44,15 @@ public class Menuv2Controller implements Initializable {
 
         single_controller.prevScene(stage);//gives the singleplayer controller the scene
         prevStage.close();
+        scene.setOnKeyPressed(new EventHandler<KeyEvent>() { // sends key press to single player
+            @Override
+            public void handle(KeyEvent e) {
+                    single_controller.sendKeyCode(e.getCode().toString());
+
+            }
+        });
         stage.show();
+        stage.setOnCloseRequest(event -> System.exit(0));
 
     }
 
@@ -65,6 +76,7 @@ public class Menuv2Controller implements Initializable {
         mult_controller.prevScene(stage);//gives the singleplayer controller the scene
         prevStage.close();
         stage.show();
+        stage.setOnCloseRequest(event -> System.exit(0));
     }
 
     public void gotoScore() throws IOException { //loads fxml for score page, creates scene, sends the controller the main and score scene, adds css, closes main and shows score scene
@@ -87,10 +99,12 @@ public class Menuv2Controller implements Initializable {
         score_controller.prevScene(stage);//gives the singleplayer controller the scene
         prevStage.close();
         stage.show();
+        stage.setOnCloseRequest(event -> System.exit(0));
     }
 
     public void exit() { //adds function to exit button
         prevStage.close();
+        System.exit(0);
     }
 
     @Override
