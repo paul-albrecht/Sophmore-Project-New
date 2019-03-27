@@ -79,8 +79,12 @@ public class Menuv2Controller implements Initializable {
         stage.setOnCloseRequest(event -> System.exit(0));
     }
 
-    public void gotoScore() throws IOException { //loads fxml for score page, creates scene, sends the controller the main and score scene, adds css, closes main and shows score scene
+    public void gotoScore() throws IOException, Exception { //loads fxml for score page, creates scene, sends the controller the main and score scene, adds css, closes main and shows score scene
         Stage stage = new Stage();
+        
+       
+        ScoresController hs = new ScoresController();
+        hs.highsores();
 
         FXMLLoader loader = new FXMLLoader();
         String fxmlDocPath = "build/classes/tetrisv2/Scores.fxml";
