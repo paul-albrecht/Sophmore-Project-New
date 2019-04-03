@@ -70,6 +70,7 @@ public class ScoresController implements Initializable {
             
             
             
+            
             file.close();
         } catch (Exception e) {
             
